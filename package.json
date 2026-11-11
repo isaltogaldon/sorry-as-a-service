@@ -1,0 +1,6 @@
+{
+  "name": "sorry-as-a-service",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": { "next": "15.5.4", "react": "19.1.1", "react-dom": "19.1.1", "stripe": "18.5.0" }
+}

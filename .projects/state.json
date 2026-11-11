@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "providers": {
+    "stripe": {
+      "name": "stripe"
+    },
+    "vercel": {
+      "name": "Vercel"
+    }
+  },
+  "resources": {
+    "stripe": {
+      "livemode": true,
+      "name": "stripe",
+      "providerName": "stripe",
+      "serviceId": "sandbox"
+    },
+    "vercel-plan": {
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerName": "Vercel",
+      "serviceId": "hobby"
+    },
+    "web": {
+      "livemode": true,
+      "name": "web",
+      "providerName": "Vercel",
+      "serviceId": "project"
+    }
+  }
+}

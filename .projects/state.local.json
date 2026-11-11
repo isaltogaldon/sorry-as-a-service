@@ -1,0 +1,63 @@
+{
+  "version": 4,
+  "project": {
+    "catalog": "prod",
+    "initializedAt": "2026-11-11T13:04:01.095Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1UaYnPAIktX5tx06",
+    "projectId": "project_61Vjz9M3OAQVkG0Xf16Vjwkl1zGCYEPioACg7Q6DwUXw",
+    "projectName": "sorry-as-a-service"
+  },
+  "providers": {
+    "vercel": {
+      "accountRequestId": "facctrq_61VjzAOxTCtQD37O016Vjwkl1zGCYEPioACg7Q6DwVsW",
+      "configuration": {},
+      "linkedAt": "2026-11-11T13:05:07.070Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-11-11T13:05:04.258Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "stripe": {
+      "configuration": {},
+      "createdAt": "2026-11-11T13:07:56.104Z",
+      "lastRevealedAt": "2026-11-11T13:07:56.437Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "stripe",
+      "providerId": "prvdr_stripe_native",
+      "providerName": "stripe",
+      "resourceId": "fres_61VjzD8UGM4qA3oh716Vjwkl1zGCYEPioACg7Q6DwWXY",
+      "serviceId": "sandbox"
+    },
+    "vercel-plan": {
+      "configuration": {},
+      "createdAt": "2026-11-11T13:05:08.212Z",
+      "lastRevealedAt": "2026-11-11T13:05:08.516Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VjzARFnVEXqTdoq16Vjwkl1zGCYEPioACg7Q6DwCxk",
+      "serviceId": "hobby"
+    },
+    "web": {
+      "configuration": {
+        "name": "sorry-as-a-service"
+      },
+      "createdAt": "2026-11-11T13:05:23.939Z",
+      "lastRevealedAt": "2026-11-11T13:05:24.290Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "web",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VjzAhaL3CwiZvOP16Vjwkl1zGCYEPioACg7Q6Dw6SO",
+      "serviceId": "project"
+    }
+  }
+}
